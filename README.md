@@ -1,4 +1,4 @@
-# python-practice
+# Python practice
 
 Here are some things I have been practicing in order to implement my learning. 
 
