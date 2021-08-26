@@ -8,7 +8,7 @@ def valid_parentheses(string):  # takes in a string of bracket characters
             if t > 0:
                 return False
 
-    # you can have potentially left brackets (negative t value) as we don't know how many right brackets are coming
+    # you can have potentially infinite left brackets (negative t value) as we don't know how many right brackets are coming
     # however, if there are too many right brackets in a row (positive t value), no amount of left brackets will be syntactically correct
     # e.g. ()) or )(
 
